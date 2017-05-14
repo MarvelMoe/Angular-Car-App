@@ -1,0 +1,41 @@
+  <div class="card-action">Add a car</div>
+	 <div class="row">
+	    <form class="col s12 card"  #newCarForm="ngForm" (ngSubmit)="onSubmit(newCarForm.value)">
+	      <div class="row">
+
+	        <div class="input-field col s4">
+	          <input   id="name" type="text" class="validate" name="name" 
+	           ngModel   
+	          required>
+	          <label for="name" class="active"> Name</label>
+	        </div>
+	        <div class="input-field col s4">
+	          <input id="price" type="text" class="validate" name="price" 
+	           ngModel   
+	          required>
+	          <label for="price" class="active">Price</label>
+	        </div>
+	         <div class="input-field col s4">
+	          <input id="speed" type="text" class="validate" name="speed" 
+	           ngModel  
+	          required>
+	          <label for="speed" class="active">Speed</label>
+	        </div>
+	      </div>
+	    
+	      
+	      <div class="row">
+	        <div class="input-field col s12">
+	         <button
+	          class="btn btn-primary listing-button"
+	          type="submit"
+	          ng-show="addListing">
+	            Add
+	        </button>
+	        </div>
+	      </div>
+	  
+	    </form>
+	  </div>
+ 
+        
