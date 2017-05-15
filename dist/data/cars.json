@@ -1,0 +1,30 @@
+  [
+  {
+    "id": 1,
+    "name": "KOENIGSEGG AGERA R",
+    "price": 1700000,
+    "speed": "273 mph",
+    "image":"car-1"
+  },
+  {
+    "id": 2,
+    "name": "HENNESSEY VENOM GT",
+    "price": 410500,  
+    "speed": "270 mph",
+    "image":"car-2"
+  },
+  {
+    "id": 3,
+    "name": "BUGATTI VEYRON SUPER SPORT",
+    "price": 395000,
+    "speed": "273 mph",
+    "image":"car-3"
+  },
+    {
+    "id": 4,
+    "name": "9FF GT9-R",
+    "price": 1170000,
+    "speed": "257 MPH",
+    "image":"car-4"
+  }
+]
