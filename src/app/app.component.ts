@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'The Fastest Cars App';
-
+  
+   ngAfterViewInit(){
+           $(document).ready(function(){          
+            $('body').find('.placeholder').eq(1).addClass('row')
+           });
   
 }
